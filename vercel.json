@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "JIRA-NOTION-POSTMORTEM/api/createPostmortem.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/createPostmortem", "dest": "JIRA-NOTION-POSTMORTEM/api/createPostmortem.js" }
+  ]
+}
