@@ -1,15 +1,12 @@
 {
   "name": "notion-postmortem",
   "version": "1.0.0",
-  "description": "Integración de Jira con Notion para crear Postmortems automáticamente",
-  "main": "testnotion.js",
+  "description": "API para crear postmortems de Jira en Notion",
   "type": "module",
   "scripts": {
-    "start": "node testnotion.js",
-    "dev": "vercel dev"
+    "start": "node testnotion.js"
   },
   "dependencies": {
-    "@notionhq/client": "^2.2.13",
-    "dotenv": "^16.3.1"
+    "@notionhq/client": "^2.2.13"
   }
 }
